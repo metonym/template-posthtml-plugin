@@ -38,7 +38,7 @@ yarn test
 
 #### Test-driven Development mode (TDD)
 
-The following command runs jest in [watch mode](https://jestjs.io/docs/en/cli#watch).
+To enable [Test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) the following command runs jest in [watch mode](https://jestjs.io/docs/en/cli#watch).
 
 ```bash
 yarn test:tdd
@@ -56,6 +56,8 @@ install: yarn
 # Travis CI executes the `yarn test` script by default
 # Test coverage should be printed to the Travis build log
 ```
+
+The CI configuration can be modified in [`.travis.yml`](.travis.yml).
 
 ## Other tools
 
