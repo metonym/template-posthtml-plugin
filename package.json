@@ -33,6 +33,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "yarn lint && pretty-quick --staged",
+      "pre-push": "yarn test",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
@@ -55,7 +56,6 @@
   },
   "homepage": "https://github.com/metonym/template-posthtml-plugin",
   "keywords": [
-    "template",
     "posthtml",
     "posthtml plugin"
   ],
