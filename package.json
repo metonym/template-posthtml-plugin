@@ -2,7 +2,7 @@
   "name": "template-posthtml-plugin",
   "version": "0.1.0",
   "license": "MIT",
-  "description": "Template for developing posthtml plugins",
+  "description": "Template for developing and publishing PostHTML plugins",
   "author": "Eric Liu (https://github.com/metonym)",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
