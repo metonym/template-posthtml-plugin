@@ -8,6 +8,10 @@ Inspired by the [`posthtml-plugin-boilerplate`](https://github.com/posthtml/post
 
 Rudimentary typings for PostHTML are included in [`src/types/posthtml.d.ts`](src/types/posthtml.d.ts).
 
+The `posthtml-plugin-boilerplate` contains an excellent sample [README](https://github.com/posthtml/posthtml-plugin-boilerplate/blob/master/readme.md) to describe and document a plugin.
+
+Don't forget to update the [changelog](CHANGELOG.md) for each release published to the npm registry.
+
 ## Scripts
 
 ### Develop
