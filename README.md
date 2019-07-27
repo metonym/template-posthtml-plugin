@@ -53,15 +53,19 @@ language: node_js
 node_js: stable
 cache: yarn
 install: yarn
-# After installing, Travis CI executes the `yarn test` script by default
-# The test coverage should be printed to the Travis build log
+# Travis CI executes the `yarn test` script by default
+# Test coverage should be printed to the Travis build log
 ```
 
-## Linting, formatting and committing
+## Other tools
 
-This project uses `prettier`, `tslint` and git hooks (via `husky`) to automate the linting and formatting of code and commit messages.
+Linters are run in [husky](https://github.com/typicode/husky) hooks to enforce a consistent code and formatting style:
 
-[Commitlint](https://github.com/conventional-changelog/commitlint) is used to enforce [semantic commit messages](https://seesparkbox.com/foundry/semantic_commit_messages).
+- **[Prettier](https://prettier.io/)**: opinionated code formatter used to lint staged files in the pre-commit husky hook
+
+- **[TSLint](https://github.com/palantir/tslint)**: extensible TypeScript linter used to lint (and fix) errors in the pre-commit husky hook
+
+- **[commitlint](https://github.com/conventional-changelog/commitlint)**: commit message linter used in the commit-msg husky hook to encourage [semantic commit messages](https://seesparkbox.com/foundry/semantic_commit_messages)
 
 ## License
 
