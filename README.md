@@ -10,7 +10,7 @@ Rudimentary typings for PostHTML are included in [`src/types/posthtml.d.ts`](src
 
 The `posthtml-plugin-boilerplate` contains an excellent sample [README](https://github.com/posthtml/posthtml-plugin-boilerplate/blob/master/readme.md) to describe and document a plugin.
 
-Don't forget to update the [changelog](CHANGELOG.md) for each release published to the npm registry.
+Don't forget to update the [changelog](CHANGELOG.md) for each release published to the [npm registry](https://www.npmjs.com/).
 
 ## Scripts
 
@@ -42,7 +42,7 @@ yarn test
 
 #### Test-driven Development mode (TDD)
 
-To enable [Test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) the following command runs jest in [watch mode](https://jestjs.io/docs/en/cli#watch).
+To employ [Test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) the following command runs jest in [watch mode](https://jestjs.io/docs/en/cli#watch).
 
 ```bash
 yarn test:tdd
@@ -61,7 +61,7 @@ install: yarn
 # Test coverage should be printed to the Travis build log
 ```
 
-The CI configuration can be modified in [`.travis.yml`](.travis.yml).
+The Travis CI configuration can be modified in [`.travis.yml`](.travis.yml).
 
 ## Other tools
 
