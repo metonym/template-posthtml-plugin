@@ -3,8 +3,6 @@
 [![Build][build]][build-badge]
 [![Coverage][codecov-shield]][codecov]
 
-[![Build Status](https://travis-ci.com/metonym/template-posthtml-plugin.svg?branch=master)](https://travis-ci.com/metonym/template-posthtml-plugin)
-
 > Template for developing and publishing PostHTML plugins.
 
 Inspired by the [`posthtml-plugin-boilerplate`](https://github.com/posthtml/posthtml-plugin-boilerplate), this template provides a boilerplate to build [PostHTML](https://github.com/posthtml) plugins with TypeScript.
