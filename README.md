@@ -74,6 +74,14 @@ Linters are run in [husky](https://github.com/typicode/husky) hooks to enforce a
 
 - **[commitlint](https://github.com/conventional-changelog/commitlint)**: commit message linter used in the commit-msg husky hook to encourage [semantic commit messages](https://seesparkbox.com/foundry/semantic_commit_messages)
 
+## Publishing to npm
+
+When publishing your plugin for the first time, be sure to update the `homepage`, `repository` and `bugs` fields in the `package.json`. Login as your npm user and run the following:
+
+```bash
+npm publish
+```
+
 ## License
 
 [MIT](LICENSE)
