@@ -1,4 +1,7 @@
-# template-posthtml-plugin
+# template-posthtml-plugin <img align="right" width="220" height="200" title="PostHTML logo" src="http://posthtml.github.io/posthtml/logo.svg">
+
+[![Build][build]][build-badge]
+[![Coverage][codecov-shield]][codecov]
 
 [![Build Status](https://travis-ci.com/metonym/template-posthtml-plugin.svg?branch=master)](https://travis-ci.com/metonym/template-posthtml-plugin)
 
@@ -76,3 +79,8 @@ Linters are run in [husky](https://github.com/typicode/husky) hooks to enforce a
 ## License
 
 [MIT](LICENSE)
+
+[build]: https://travis-ci.com/metonym/template-posthtml-plugin.svg?branch=master
+[build-badge]: https://travis-ci.com/metonym/template-posthtml-plugin
+[codecov]: https://codecov.io/gh/metonym/template-posthtml-plugin
+[codecov-shield]: https://img.shields.io/codecov/c/github/metonym/template-posthtml-plugin.svg
