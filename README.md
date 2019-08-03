@@ -5,7 +5,7 @@
 
 > Template for developing and publishing PostHTML plugins.
 
-Inspired by the [`posthtml-plugin-boilerplate`](https://github.com/posthtml/posthtml-plugin-boilerplate), this template provides a boilerplate to build [PostHTML](https://github.com/posthtml) plugins with TypeScript.
+Inspired by the [posthtml-plugin-boilerplate](https://github.com/posthtml/posthtml-plugin-boilerplate), this template is used to develop and build [PostHTML](https://github.com/posthtml) plugins with TypeScript.
 
 Rudimentary typings for PostHTML are included in [`src/types/posthtml.d.ts`](src/types/posthtml.d.ts).
 
@@ -57,7 +57,7 @@ yarn test:tdd
 language: node_js
 node_js: stable
 cache: yarn
-install: yarn
+after_success: npx codecov
 # Travis CI executes the `yarn test` script by default
 # Test coverage should be printed to the Travis build log
 ```
