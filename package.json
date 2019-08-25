@@ -60,7 +60,7 @@
     "posthtml plugin"
   ],
   "files": [
-    "lib/"
+    "lib"
   ],
   "bugs": "https://github.com/metonym/template-posthtml-plugin/issues"
 }

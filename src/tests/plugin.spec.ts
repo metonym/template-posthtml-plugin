@@ -1,8 +1,8 @@
 import posthtml from 'posthtml';
-import { plugin } from '../';
+import plugin from '../';
 
-describe('PostHTML plugin', () => {
-  test('plugin matches snapshot', () => {
+describe('posthtml-plugin', () => {
+  it('matches the snapshot', () => {
     posthtml()
       .use(plugin())
       .process(`<body></body>`)
