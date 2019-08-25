@@ -1,9 +1,15 @@
 /node_modules
-/lib
+
+# ignore test coverage folder
 /coverage
+
+# ignore folder containing published code
+/lib
+
+# zip file created when prepacking the plugin
+*.tgz
 
 .DS_Store
 yarn-debug.log*
 yarn-error.log*
 
-*.tgz
