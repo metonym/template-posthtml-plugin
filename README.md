@@ -82,6 +82,8 @@ When publishing your plugin for the first time, be sure to update the `homepage`
 npm publish
 ```
 
+Edit the package keywords in the `keywords` field of `package.json`.
+
 ## License
 
 [MIT](LICENSE)

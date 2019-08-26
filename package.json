@@ -57,7 +57,8 @@
   "homepage": "https://github.com/metonym/template-posthtml-plugin",
   "keywords": [
     "posthtml",
-    "posthtml plugin"
+    "posthtml plugin",
+    "plugin"
   ],
   "files": [
     "lib"
