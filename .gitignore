@@ -6,7 +6,7 @@
 # ignore folder containing published code
 /lib
 
-# zip file created when prepacking the plugin
+# ignore zip file created when prepacking the plugin
 *.tgz
 
 .DS_Store
