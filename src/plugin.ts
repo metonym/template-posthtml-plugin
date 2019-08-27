@@ -1,7 +1,7 @@
-import { ITree } from 'posthtml';
+import { PostHTMLTree } from 'posthtml';
 
 function plugin() {
-  return function posthtmlPlugin(tree: ITree) {
+  return function posthtmlPlugin(tree: PostHTMLTree) {
     return tree;
   };
 }
