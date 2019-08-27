@@ -6,7 +6,7 @@ describe('posthtml-plugin', () => {
     posthtml()
       .use(plugin())
       .process(`<body></body>`)
-      .then((result: { html: string }) => {
+      .then(result => {
         expect(result.html).toMatchSnapshot();
       });
   });
