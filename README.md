@@ -7,8 +7,6 @@
 
 Inspired by the [posthtml-plugin-boilerplate](https://github.com/posthtml/posthtml-plugin-boilerplate), this template is used to develop and build [PostHTML](https://github.com/posthtml) plugins with TypeScript.
 
-Rudimentary typings for PostHTML are included in [`src/types/posthtml.d.ts`](src/types/posthtml.d.ts).
-
 The `posthtml-plugin-boilerplate` contains an excellent sample [README](https://github.com/posthtml/posthtml-plugin-boilerplate/blob/master/readme.md) to describe and document a plugin.
 
 Don't forget to update the [changelog](CHANGELOG.md) for each release published to the [npm registry](https://www.npmjs.com/).
@@ -79,6 +77,8 @@ Linters are run in [husky](https://github.com/typicode/husky) hooks to enforce a
 When publishing your plugin for the first time, be sure to update the `homepage`, `repository` and `bugs` fields in the `package.json`. Login as your npm user and run the following:
 
 ```bash
+yarn publish
+# OR
 npm publish
 ```
 
