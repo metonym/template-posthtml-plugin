@@ -1,5 +1,5 @@
 import posthtml from 'posthtml';
-import plugin from '../';
+import plugin from '../src';
 
 describe('posthtml-plugin', () => {
   it('matches the snapshot', () => {
