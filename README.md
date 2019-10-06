@@ -11,41 +11,23 @@ The `posthtml-plugin-boilerplate` contains an excellent sample [README](https://
 
 Don't forget to update the [changelog](CHANGELOG.md) for each release published to the [npm registry](https://www.npmjs.com/).
 
-## Scripts
+## Available Scripts
 
-### Develop
+### `yarn build`
 
-This command builds the project in watch mode. The source (i.e. entry) is in `src`, which is outputted in the designated folder `lib`.
+Builds the plugin for production.
 
-```bash
-yarn develop
-```
+### `yarn lint`
 
-### Build
+Lints project files using [tslint](https://github.com/palantir/tslint) and fixes linting errors (if fixable).
 
-The following command first removes the `lib` folder before building the project. The production configuration is located in [`tsconfig.prod.json`](tsconfig.prod.json).
+### `yarn test`
 
-The only difference between the production and development TypeScript configurations is that the `src/tests` folder is ignored.
+Runs [Jest](https://jestjs.io/) and [ts-jest](https://github.com/kulshekhar/ts-jest) and outputs testing coverage.
 
-```bash
-yarn build
-```
+### `yarn test:tdd`
 
-### Test
-
-[Jest](https://jestjs.io/) and [ts-jest](https://github.com/kulshekhar/ts-jest) are used for unit testing. The following command runs all test suites and outputs the coverage.
-
-```bash
-yarn test
-```
-
-#### Test-driven Development mode (TDD)
-
-To employ [Test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) the following command runs jest in [watch mode](https://jestjs.io/docs/en/cli#watch).
-
-```bash
-yarn test:tdd
-```
+Runs jest in [watch mode](https://jestjs.io/docs/en/cli#watch).
 
 ## Continuous Integration (CI)
 
