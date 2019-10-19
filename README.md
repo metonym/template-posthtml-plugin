@@ -64,7 +64,19 @@ yarn publish
 npm publish
 ```
 
-Edit the package keywords in the `keywords` field of `package.json`.
+Update the relevant publishing-related fields in [package.json](package.json).
+
+```json
+{
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/{USER}/template-posthtml-plugin.git"
+  },
+  "homepage": "https://github.com/{USER}/template-posthtml-plugin",
+  "keywords": ["posthtml", "posthtml plugin", "plugin"],
+  "bugs": "https://github.com/{USER}/template-posthtml-plugin/issues"
+}
+```
 
 ## License
 
