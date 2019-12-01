@@ -13,21 +13,17 @@ Don't forget to update the [changelog](CHANGELOG.md) for each release published 
 
 ## Available Scripts
 
-### `yarn build`
+### `yarn test:tdd`
 
-Builds the plugin for production.
-
-### `yarn lint`
-
-Lints project files using [tslint](https://github.com/palantir/tslint) and fixes linting errors (if fixable).
+Runs all tests in [watch mode](https://jestjs.io/docs/en/cli#watch). Use this command when developing a plugin.
 
 ### `yarn test`
 
 Runs [Jest](https://jestjs.io/) and [ts-jest](https://github.com/kulshekhar/ts-jest) and outputs testing coverage.
 
-### `yarn test:tdd`
+### `yarn build`
 
-Runs jest in [watch mode](https://jestjs.io/docs/en/cli#watch).
+Builds the plugin for production.
 
 ## Continuous Integration (CI)
 
